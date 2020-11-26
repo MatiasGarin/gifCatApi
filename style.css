@@ -1,0 +1,49 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: #000000;
+	color: #ffffff;
+}
+/* Utilitarias */
+img {
+	width: 30%;
+}
+.container-1{
+	margin: 10px auto;
+	width: 70%;
+}
+.container-2{
+	margin: 15px 10px 10px 10px;
+	text-align: center;
+}
+.border-1{
+	border: 2px solid #ffffff;
+}
+.border-2{
+	border: 1px solid #ffffff;
+}
+.container-flex-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 15px 10px 10px 10px;
+}
+.container-flex-box img {
+	box-shadow: 8px 0 12px rgba(32, 32, 32, 0.7);
+	margin: 10px 10px;
+}
+/* Botones */
+.btn{
+	font-size: 20px;
+	border-style: none;
+	padding: 5px 5px;
+}
+.one{
+	background-color: #3C41BF;
+	color: #ffffff;
+}
+/*  */
+.container-flex-box img:hover{
+	box-shadow: 5px 15px 15px rgba(50, 50, 255, 0.7);
+}
